@@ -21,12 +21,11 @@ const ASHakkimizda = () => {
         <div className="flex flex-wrap items-center -mx-4">
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
             <h2 className="mt-2 mb-6 text-4xl lg:text-5xl text-white font-bold font-heading">
-              Siz hayal edin, <br /> biz gerçekleştirelim
+              Siz hayal edin, biz gerçekleştirelim
             </h2>
             <p className="text-lg text-gray-100 leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan
-              aliquet orci.
+              Çatınızı güvenle inşa edin, her damlayı koruyun, her fırtınaya
+              meydan okuyun.
             </p>
           </div>
         </div>

@@ -3,6 +3,7 @@ import fi from "../public/assets/mockup-assets/logos/shuffle-ux.svg";
 import fx from "../public/assets/mockup-assets/images/gray-500-square.png";
 import Image from "next/image";
 import Link from "next/link";
+import mlogo from "../public/assets/mockup-assets/images/eblogo2.png";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
       <div className="container px-4 mx-auto">
         <nav className="flex justify-between items-center py-8">
           <Link className="text-gray-600 text-2xl leading-none" href="/">
-            <Image className="h-8" src={fi} alt width="auto" />
+            <Image className="h-16" src={mlogo} alt width="160" />
           </Link>
           <div className="lg:hidden">
             <button className="block text-gray-500 hover:text-gray-600 focus:outline-none">
@@ -28,7 +29,7 @@ const Navbar = () => {
           <ul className="hidden lg:flex ml-auto mr-10 items-center w-auto space-x-12">
             <li>
               <Link
-                className="text-sm text-gray-500 hover:text-gray-700"
+                className="text-lg text-gray-500 hover:text-gray-700"
                 href="/hakkimizda"
               >
                 Hakkımızda
@@ -36,7 +37,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                className="text-sm text-gray-500 hover:text-gray-700"
+                className="text-lg text-gray-500 hover:text-gray-700"
                 href="/urunler"
               >
                 Ürünler
@@ -44,7 +45,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                className="text-sm text-gray-500 hover:text-gray-700"
+                className="text-lg text-gray-500 hover:text-gray-700"
                 href="/galeri"
               >
                 Galeri
@@ -52,7 +53,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                className="text-sm text-gray-500 hover:text-gray-700"
+                className="text-lg text-gray-500 hover:text-gray-700"
                 href="/referanslar"
               >
                 Referanslar

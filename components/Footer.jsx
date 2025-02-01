@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import fi from "../public/assets/mockup-assets/logos/shuffle-ux.svg";
 import flogo from "../public/assets/mockup-assets/socials/facebook.svg";
+import mlogo from "../public/assets/mockup-assets/images/eblogo2.png";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-wrap -mx-4 mb-8 lg:mb-16">
           <div className="w-full lg:w-1/3 px-4 mb-12 lg:mb-0">
             <a className="text-gray-600 text-2xl leading-none" href="#">
-              <Image className="h-8" src={fi} alt width="auto" />
+              <Image className="h-16" src={mlogo} alt width="160" />
             </a>
             <p className="mt-5 mb-6 max-w-xs text-gray-500 leading-loose">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -142,7 +143,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-50 pt-8">
           <p className="lg:text-center text-sm text-gray-400">
-            All rights reserved © Wireframes Corporation 2020
+            All rights reserved © Alp Toker 2025
           </p>
         </div>
       </div>
