@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import ashak from "@/public/assets/mockup-assets/images/asbanger.jpg";
