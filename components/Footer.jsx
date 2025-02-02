@@ -3,6 +3,7 @@ import Image from "next/image";
 import fi from "../public/assets/mockup-assets/logos/shuffle-ux.svg";
 import flogo from "../public/assets/mockup-assets/socials/facebook.svg";
 import mlogo from "../public/assets/mockup-assets/images/eblogo2.png";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
               <Image className="h-16" src={mlogo} alt width="160" />
             </a>
             <p className="mt-5 mb-6 max-w-xs text-gray-500 leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Siz hayal edin, biz gerçekleştirelim
             </p>
             <div>
               <a className="inline-block h-6 mr-8" href="#">
@@ -37,52 +38,72 @@ const Footer = () => {
           <div className="w-full lg:w-2/3 px-4">
             <div className="flex flex-wrap justify-between">
               <div className="w-1/2 lg:w-1/4 mb-8 lg:mb-0">
-                <h3 className="mb-6 text-lg font-bold font-heading">Company</h3>
+                <h3 className="mb-6 text-lg font-bold font-heading">
+                  Kurumsal
+                </h3>
                 <ul className="text-sm">
                   <li className="mb-4">
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      About Us
-                    </a>
+                    <Link
+                      className="text-gray-500 hover:text-gray-600"
+                      href="/hakkimizda"
+                    >
+                      Hakkımızda
+                    </Link>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Careers
-                    </a>
+                    <Link
+                      className="text-gray-500 hover:text-gray-600"
+                      href="/urunler"
+                    >
+                      Ürünler
+                    </Link>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Press
-                    </a>
+                    <Link
+                      className="text-gray-500 hover:text-gray-600"
+                      href="/referanslar"
+                    >
+                      Referanslar
+                    </Link>
                   </li>
                   <li>
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Blog
-                    </a>
+                    <Link
+                      className="text-gray-500 hover:text-gray-600"
+                      href="/iletisim"
+                    >
+                      İletişim
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="w-1/2 lg:w-1/4 mb-8 lg:mb-0">
-                <h3 className="mb-6 text-lg font-bold font-heading">Pages</h3>
+                <h3 className="mb-6 text-lg font-bold font-heading">
+                  Sayfalar
+                </h3>
                 <ul className="text-sm">
                   <li className="mb-4">
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Login
-                    </a>
+                    <Link
+                      className="text-gray-500 hover:text-gray-600"
+                      href="/referanslar"
+                    >
+                      Referanslar
+                    </Link>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Register
-                    </a>
+                    <Link
+                      className="text-gray-500 hover:text-gray-600"
+                      href="/haberler"
+                    >
+                      Haberler
+                    </Link>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Add list
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Contact
-                    </a>
+                    <Link
+                      className="text-gray-500 hover:text-gray-600"
+                      href="/galeri"
+                    >
+                      Galeri
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -107,33 +128,6 @@ const Footer = () => {
                   <li>
                     <a className="text-gray-500 hover:text-gray-600" href="#">
                       Privacy
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="w-1/2 lg:w-1/4">
-                <h3 className="mb-6 text-lg font-bold font-heading">
-                  Resources
-                </h3>
-                <ul className="text-sm">
-                  <li className="mb-4">
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Blog
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Service
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Product
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-gray-500 hover:text-gray-600" href="#">
-                      Pricing
                     </a>
                   </li>
                 </ul>
