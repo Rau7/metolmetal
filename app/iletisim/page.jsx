@@ -2,20 +2,26 @@ import React from "react";
 import Image from "next/image";
 import map from "@/public/assets/mockup-assets/images/map1.png";
 
+{
+  /* 
+    Soldaki foto kaldı!
+    
+    */
+}
 const IletisimSayfasi = () => {
   return (
     <section className="relative py-20">
       <div className="container px-4 mx-auto mb-10 lg:mb-0">
         <div className="w-full lg:w-1/2 ml-auto">
-          <div className="flex flex-wrap lg:h-112 sm:max-w-md lg:ml-auto">
+          <div className="flex flex-wrap lg:h-112 sm:max-w-md lg:ml-auto lg:mr-5">
             <div>
               <h2 className="mb-4 text-5xl font-bold font-heading">
-                Get questions?
+                Sorularınız mı var?
               </h2>
               <p className="text-gray-500 leading-loose">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan
-                aliquet orci.
+                Size en iyi hizmeti sunmak için buradayız. Ürünlerimiz veya
+                projeleriniz hakkında bilgi almak için bizimle iletişime
+                geçebilirsiniz.
               </p>
             </div>
             <div className="mt-12 lg:mt-auto w-full flex flex-wrap -mx-4">
@@ -34,12 +40,14 @@ const IletisimSayfasi = () => {
                   />
                   <circle cx={24} cy={24} r="23.5" stroke="#C2C9D2" />
                 </svg>
-                <p className="text-2xl font-semibold text-gray-800">Visit Us</p>
-                <p className="text-lg text-gray-500 leading-loose">
-                  1686, Geraldine Lane
+                <p className="text-2xl font-semibold text-gray-800">
+                  Ziyaret Edin
                 </p>
                 <p className="text-lg text-gray-500 leading-loose">
-                  New York, NY 10013
+                  5. Sk. No:18, Saray
+                </p>
+                <p className="text-lg text-gray-500 leading-loose">
+                  06980, Kahramankazan/Ankara
                 </p>
               </div>
               <div className="w-full md:w-1/2 px-4">
@@ -58,13 +66,13 @@ const IletisimSayfasi = () => {
                   <circle cx={24} cy={24} r="23.5" stroke="#C2C9D2" />
                 </svg>
                 <p className="text-2xl font-semibold text-gray-800">
-                  Contact Us
+                  Bize Ulaşın
                 </p>
                 <p className="text-lg text-gray-500 leading-loose">
-                  hello@wireframes.org
+                  hello@wireframes.org(email)
                 </p>
                 <p className="text-lg text-gray-500 leading-loose">
-                  + 7-843-672-431
+                  +90 536 925 10 85
                 </p>
               </div>
             </div>
@@ -73,7 +81,7 @@ const IletisimSayfasi = () => {
       </div>
       <div className="lg:absolute lg:top-0 lg:mt-20 lg:left-0">
         <Image
-          className="h-112 w-full lg:w-1/2 lg:pr-8 object-cover lg:rounded-r-xl"
+          className="h-112 w-full lg:pr-8 object-cover lg:rounded-r-xl"
           src={map}
           alt
         />
