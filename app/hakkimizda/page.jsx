@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import mlogo from "@/public/assets/mockup-assets/images/eblogo2.png";
 
 const HakkimizdaSayfasi = () => {
   return (
@@ -9,20 +11,27 @@ const HakkimizdaSayfasi = () => {
             Hakkımızda
           </h2>
           <p className="text-lg text-gray-500 leading-loose">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan
-            aliquet orci.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan
-            aliquet orci.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan
-            aliquet orci.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan
-            aliquet orci.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan
-            aliquet orci.Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan
-            aliquet orci.
+            Metol Metal, 20 yılı aşkın deneyimiyle oluk, çatı ve çelik
+            konstrüksiyon sektöründe güven ve kaliteyi ön planda tutan bir
+            firmadır. Kurulduğumuz günden bu yana müşteri memnuniyetini esas
+            alarak, dayanıklı ve yenilikçi çözümler sunmaktayız. Uzman ekibimiz
+            ve modern üretim teknolojilerimizle, projelerinize özel en iyi çatı
+            ve yapı sistemlerini sağlamak için çalışıyoruz. Güçlü altyapımız,
+            tecrübeli kadromuz ve sürdürülebilir üretim anlayışımızla sektörün
+            öncüsü olmayı hedefliyoruz. Metol Metal olarak, geleceğin yapılarını
+            inşa ederken estetik, güvenlik ve dayanıklılığı bir araya
+            getiriyoruz. Sizi de kaliteli ve uzun ömürlü çözümlerimizle
+            tanışmaya davet ediyoruz.
           </p>
+        </div>
+        <div className="flex items-center justify-around">
+          <Image
+            className="mx-auto mb-6"
+            src={mlogo}
+            alt="Metol Metal Logo"
+            width="300"
+            height="160"
+          />
         </div>
         <div className="flex items-center justify-around">
           <button className="flex-shrink-0 hidden md:block w-16 h-16 p-5 rounded-full bg-gray-50 hover:bg-gray-100">
@@ -48,15 +57,15 @@ const HakkimizdaSayfasi = () => {
                   <div className="max-w-2xl mx-auto py-16 px-12 mb-6 lg:mb-12 bg-gray-50 rounded-lg text-center">
                     <div className="absolute inset-0 -mt-10"></div>
                     <h3 className="text-2xl font-bold font-heading">
-                      Danny Bailey
+                      Vizyonumuz
                     </h3>
-                    <p className="mb-4 text-gray-500 text-lg">
-                      CEO &amp; Founder
-                    </p>
                     <p className="text-gray-500 text-lg leading-loose">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Pellentesque massa nibh, pulvinar vitae aliquet nec,
-                      accumsan aliquet orci.
+                      Metol Metal olarak, çatı ve yapı sistemleri sektöründe
+                      yenilikçi, sürdürülebilir ve kaliteli çözümler sunarak
+                      lider bir marka olmayı hedefliyoruz. Güçlü altyapımız ve
+                      müşteri odaklı yaklaşımımızla, geleceğin yapı
+                      teknolojilerine yön veren bir firma olarak sektörde fark
+                      yaratmayı amaçlıyoruz.
                     </p>
                   </div>
                 </div>
@@ -66,14 +75,16 @@ const HakkimizdaSayfasi = () => {
                   <div className="max-w-2xl mx-auto py-16 px-12 mb-6 lg:mb-12 bg-gray-50 rounded-lg text-center">
                     <div className="absolute inset-0 -mt-10"></div>
                     <h3 className="text-2xl font-bold font-heading">
-                      Emily Smith
+                      Misyonumuz
                     </h3>
-                    <p className="mb-4 text-gray-500 text-lg">
-                      Co-Founder &amp; CEO
-                    </p>
                     <p className="text-gray-500 text-lg leading-loose">
-                      Vivamus ut urna eu purus pretium interdum. Fusce vel justo
-                      auctor, dictum velit sed, vestibulum ex.
+                      Müşterilerimize en kaliteli, dayanıklı ve estetik çatı ve
+                      yapı çözümlerini sunarak, yapı sektöründe güvenilir bir
+                      partner olmak. Teknolojik gelişmeleri yakından takip
+                      ederek, sürdürülebilir üretim anlayışıyla çevre dostu ve
+                      yenilikçi ürünler geliştirmek. Kalite, güven ve müşteri
+                      memnuniyetini her zaman ön planda tutarak sektörde kalıcı
+                      değerler yaratmak.
                     </p>
                   </div>
                 </div>
