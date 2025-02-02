@@ -1,8 +1,19 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 import mlogo from "@/public/assets/mockup-assets/images/eblogo2.png";
 
 const HakkimizdaSayfasi = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handleNext = () => {
+    setCurrentIndex((prev) => (prev === 1 ? 0 : 1));
+  };
+
+  const handlePrev = () => {
+    setCurrentIndex((prev) => (prev === 0 ? 1 : 0));
+  };
+
   return (
     <section className="py-20">
       <div className="container px-4 mx-auto">
@@ -34,7 +45,10 @@ const HakkimizdaSayfasi = () => {
           />
         </div>
         <div className="flex items-center justify-around">
-          <button className="flex-shrink-0 hidden md:block w-16 h-16 p-5 rounded-full bg-gray-50 hover:bg-gray-100">
+          <button
+            className="flex-shrink-0 hidden md:block w-16 h-16 p-5 rounded-full bg-gray-50 hover:bg-gray-100"
+            onClick={handlePrev}
+          >
             <svg
               className="text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +65,12 @@ const HakkimizdaSayfasi = () => {
             </svg>
           </button>
           <div className="overflow-hidden pt-12">
-            <div className="flex transition-transform duration-500 ease-in-out -m-5">
+            <div
+              className="flex transition-transform duration-500 ease-in-out -m-5"
+              style={{
+                transform: `translateX(-${currentIndex * 100}%)`,
+              }}
+            >
               <div className="flex-shrink-0 w-full p-5">
                 <div className="relative">
                   <div className="max-w-2xl mx-auto py-16 px-12 mb-6 lg:mb-12 bg-gray-50 rounded-lg text-center">
@@ -91,7 +110,10 @@ const HakkimizdaSayfasi = () => {
               </div>
             </div>
           </div>
-          <button className="flex-shrink-0 hidden md:block w-16 h-16 p-5 rounded-full bg-gray-50 hover:bg-gray-100">
+          <button
+            className="flex-shrink-0 hidden md:block w-16 h-16 p-5 rounded-full bg-gray-50 hover:bg-gray-100"
+            onClick={handleNext}
+          >
             <svg
               className="text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -109,11 +131,28 @@ const HakkimizdaSayfasi = () => {
           </button>
         </div>
         <div className="hidden md:block w-full text-center">
-          <button className="w-3 h-3 mr-2 rounded-full bg-gray-500 border border-gray-500" />
-          <button className="w-3 h-3 mr-2 rounded-full bg-transparent border border-gray-500" />
+          <button
+            className={`w-3 h-3 mr-2 rounded-full ${
+              currentIndex === 0
+                ? "bg-gray-500 border border-gray-500"
+                : "bg-transparent border border-gray-500"
+            }`}
+            onClick={() => setCurrentIndex(0)}
+          />
+          <button
+            className={`w-3 h-3 mr-2 rounded-full ${
+              currentIndex === 1
+                ? "bg-gray-500 border border-gray-500"
+                : "bg-transparent border border-gray-500"
+            }`}
+            onClick={() => setCurrentIndex(1)}
+          />
         </div>
         <div className="md:hidden w-full text-center">
-          <button className="w-12 h-12 p-2 rounded-full bg-gray-50">
+          <button
+            className="w-12 h-12 p-2 rounded-full bg-gray-50"
+            onClick={handlePrev}
+          >
             <svg
               className="text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +168,10 @@ const HakkimizdaSayfasi = () => {
               />
             </svg>
           </button>
-          <button className="w-12 h-12 p-2 rounded-full bg-gray-50">
+          <button
+            className="w-12 h-12 p-2 rounded-full bg-gray-50"
+            onClick={handleNext}
+          >
             <svg
               className="text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
