@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="relative">
       <div className="container px-4 mx-auto">
         <nav className="flex justify-between items-center py-8">
-          <Link className="text-gray-600 text-2xl leading-none" href="/">
+          <Link className="text-gray-600 text-2xl leading-none ml-3" href="/">
             <Image className="h-16" src={mlogo} alt width="160" />
           </Link>
           <div className="lg:hidden">
