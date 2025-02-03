@@ -5,10 +5,17 @@ import u1 from "@/public/assets/mockup-assets/images/mmurunler/urun1.jpeg";
 import u2 from "@/public/assets/mockup-assets/images/mmurunler/urun2.jpeg";
 import u3 from "@/public/assets/mockup-assets/images/mmurunler/urun3.jpeg";
 import u4 from "@/public/assets/mockup-assets/images/mmurunler/urun4.jpeg";
+import Link from "next/link";
+
 const ASHizmetler = () => {
   return (
     <section className="py-20">
       <div className="container px-4 mx-auto">
+        <div className="flex flex-wrap -mx-4 justify-center align-middle">
+          <h3 className="mb-20 text-3xl font-bold font-heading">
+            Başlıca Ürünlerimiz
+          </h3>
+        </div>
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-12 lg:mb-16">
             <div className="flex flex-wrap -mx-4">
@@ -107,7 +114,12 @@ const ASHizmetler = () => {
           </div>
         </div>
         <div className="flex flex-wrap -mx-4 justify-center align-middle">
-          <h3 className="mb-2 text-2xl font-bold font-heading">Daha Fazlası</h3>
+          <Link
+            href="/urunler"
+            className="mb-2 text-2xl font-bold font-heading"
+          >
+            Daha Fazlası
+          </Link>
         </div>
       </div>
     </section>
