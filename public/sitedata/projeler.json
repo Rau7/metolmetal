@@ -1,0 +1,46 @@
+{
+  "projeler": [
+    {
+      "id": "izmir-metal-konferansi-2024",
+      "baslik": "İzmir Metal ve Endüstri Konferansı 2024'e Katıldık",
+      "ozet": "Sektörün önde gelen firmalarıyla bir araya geldiğimiz konferansta yeni teknolojileri ve trendleri değerlendirdik",
+      "tarih": "15 Şubat 2024",
+      "konum": "İzmir, Türkiye",
+      "resimler": [
+        "https://picsum.photos/800/600?random=1",
+        "https://picsum.photos/800/600?random=2",
+        "https://picsum.photos/800/600?random=3"
+      ],
+      "detay": "İzmir'de düzenlenen Metal ve Endüstri Konferansı'nda firmamız, sektörün önde gelen temsilcileriyle bir araya geldi. Konferansta sürdürülebilir üretim teknikleri, dijital dönüşüm ve yeni nesil metal işleme teknolojileri konularında önemli görüşmeler gerçekleştirdik. Ayrıca, standımızda son teknoloji ürünlerimizi sergileme fırsatı bulduk.",
+      "etiketler": ["Konferans", "Networking", "Teknoloji", "İnovasyon"]
+    },
+    {
+      "id": "yeni-uretim-tesisi-acilisi",
+      "baslik": "Yeni Üretim Tesisimiz Hizmete Açıldı",
+      "ozet": "Modern teknolojilerle donatılmış yeni üretim tesisimiz ile kapasitemizi iki katına çıkardık",
+      "tarih": "1 Ocak 2024",
+      "konum": "Kocaeli, Türkiye",
+      "resimler": [
+        "https://picsum.photos/800/600?random=4",
+        "https://picsum.photos/800/600?random=5",
+        "https://picsum.photos/800/600?random=6"
+      ],
+      "detay": "Kocaeli'nde 10.000 m²'lik yeni üretim tesisimizin açılışını gerçekleştirdik. En son teknoloji ile donatılan tesisimiz, çevre dostu üretim sistemleri ve akıllı otomasyon çözümleriyle dikkat çekiyor. Bu yatırımla birlikte üretim kapasitemizi iki katına çıkararak, müşterilerimize daha hızlı ve kaliteli hizmet sunma imkanına kavuştuk.",
+      "etiketler": ["Yeni Tesis", "Kapasite Artışı", "Teknoloji", "Büyüme"]
+    },
+    {
+      "id": "iso-9001-belgesi",
+      "baslik": "ISO 9001:2015 Kalite Belgesi Almaya Hak Kazandık",
+      "ozet": "Kalite standartlarımız uluslararası sertifika ile tescillendi",
+      "tarih": "20 Aralık 2023",
+      "konum": "İstanbul, Türkiye",
+      "resimler": [
+        "https://picsum.photos/800/600?random=7",
+        "https://picsum.photos/800/600?random=8",
+        "https://picsum.photos/800/600?random=9"
+      ],
+      "detay": "Uzun süredir üzerinde çalıştığımız kalite yönetim sistemimiz, ISO 9001:2015 sertifikası ile taçlandırıldı. Bu belge, üretim süreçlerimizin uluslararası standartlara uygunluğunu ve müşteri memnuniyetine verdiğimiz önemi tescilliyor. Kalite yönetim sistemimizin sürekli iyileştirilmesi için çalışmalarımız devam edecek.",
+      "etiketler": ["Kalite", "Sertifikasyon", "ISO 9001", "Başarı"]
+    }
+  ]
+}

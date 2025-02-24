@@ -79,6 +79,14 @@ const Navbar = () => {
                 Referanslar
               </Link>
             </li>
+            <li>
+              <Link
+                className="text-lg text-gray-500 hover:text-gray-700"
+                href="/projelerimiz"
+              >
+                Projelerimiz
+              </Link>
+            </li>
           </ul>
           <Link
             className="hidden lg:block px-6 py-3 text-sm text-gray-500 hover:text-gray-600 font-bold border border-gray-100 hover:border-gray-200 rounded"
@@ -118,6 +126,13 @@ const Navbar = () => {
               onClick={handleLinkClick}
             >
               Referanslar
+            </Link>
+            <Link
+              href="/projelerimiz"
+              className="block px-3 py-2 text-base font-medium text-gray-500 hover:text-gray-700 hover:bg-gray-50 rounded-md"
+              onClick={handleLinkClick}
+            >
+              Projelerimiz
             </Link>
             <Link
               href="/iletisim"
