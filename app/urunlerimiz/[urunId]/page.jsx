@@ -40,7 +40,8 @@ export default function UrunDetay({ params }) {
   const nextImage = () => {
     setLightbox((prev) => ({
       ...prev,
-      currentImage: urun.resimler[(prev.currentIndex + 1) % urun.resimler.length],
+      currentImage:
+        urun.resimler[(prev.currentIndex + 1) % urun.resimler.length],
       currentIndex: (prev.currentIndex + 1) % urun.resimler.length,
     }));
   };
@@ -77,7 +78,7 @@ export default function UrunDetay({ params }) {
   return (
     <section className="py-20">
       <div className="container px-4 mx-auto">
-        <div className="max-w-6xl mx-auto">
+        <div className=" mx-auto">
           <Link
             href="/urunlerimiz"
             className="inline-block mb-8 text-blue-600 hover:text-blue-800"
@@ -88,7 +89,7 @@ export default function UrunDetay({ params }) {
           <div className="flex flex-wrap -mx-4">
             {/* Ürün Görseli */}
             <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
-              <div 
+              <div
                 className="relative overflow-hidden rounded-lg bg-gray-50 p-2 cursor-pointer"
                 onClick={() => openLightbox(0)}
               >
@@ -118,9 +119,7 @@ export default function UrunDetay({ params }) {
 
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold mb-4">Ürün Açıklaması</h2>
-                  <p className="text-gray-500 leading-relaxed">
-                    {urun.detay}
-                  </p>
+                  <p className="text-gray-500 leading-relaxed">{urun.detay}</p>
                 </div>
 
                 <div className="mb-8">

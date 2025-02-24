@@ -56,7 +56,7 @@ const Urunlerimiz = () => {
         </div>
 
         {/* Products Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {displayedProducts.map((urun) => (
             <div key={urun.id} className="flex">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden w-full flex flex-col">
