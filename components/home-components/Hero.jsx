@@ -1,9 +1,17 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import fx from "@/public/assets/mockup-assets/images/gray-500-square.png";
 import heroimg from "@/public/assets/mockup-assets/images/herox.png";
 
 const Hero = () => {
+  const scrollToProducts = () => {
+    const element = document.getElementById("urunlerimiz");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="container px-4 mx-auto">
       <div className="flex flex-wrap items-center -mx-4 lg:my-10">
@@ -34,7 +42,10 @@ const Hero = () => {
         <div className="w-full md:w-1/2 px-4">
           <Image className="object-cover w-full rounded-xl" src={heroimg} alt />
         </div>
-        <button className="block mt-10 lg:mt-20 mx-auto w-16 h-16 p-5 rounded-full bg-gray-50 hover:bg-gray-100">
+        <button
+          onClick={scrollToProducts}
+          className="block mt-10 lg:mt-20 mx-auto w-16 h-16 p-5 rounded-full bg-gray-50 hover:bg-gray-100"
+        >
           <svg
             className="mx-auto text-gray-500"
             xmlns="http://www.w3.org/2000/svg"

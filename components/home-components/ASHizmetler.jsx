@@ -8,7 +8,7 @@ const ASHizmetler = () => {
   const featuredProducts = urunlerData.urunler.slice(0, 8);
 
   return (
-    <section className="py-20">
+    <section id="urunlerimiz" className="py-20">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap -mx-4 justify-center align-middle">
           <h3 className="mb-20 text-3xl font-bold font-heading">
