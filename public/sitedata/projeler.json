@@ -39,8 +39,102 @@
         "https://picsum.photos/800/600?random=8",
         "https://picsum.photos/800/600?random=9"
       ],
-      "detay": "Uzun süredir üzerinde çalıştığımız kalite yönetim sistemimiz, ISO 9001:2015 sertifikası ile taçlandırıldı. Bu belge, üretim süreçlerimizin uluslararası standartlara uygunluğunu ve müşteri memnuniyetine verdiğimiz önemi tescilliyor. Kalite yönetim sistemimizin sürekli iyileştirilmesi için çalışmalarımız devam edecek.",
-      "etiketler": ["Kalite", "Sertifikasyon", "ISO 9001", "Başarı"]
+      "detay": "Uzun süredir üzerinde çalıştığımız kalite yönetim sistemimiz, ISO 9001:2015 sertifikası ile taçlandı. Bu belge, üretim süreçlerimizin uluslararası standartlara uygunluğunu ve müşteri memnuniyetine verdiğimiz önemi kanıtlıyor.",
+      "etiketler": ["Kalite", "Sertifikasyon", "Başarı"]
+    },
+    {
+      "id": "ar-ge-merkezi-acilisi",
+      "baslik": "Ar-Ge Merkezimiz Faaliyete Başladı",
+      "ozet": "Yenilikçi çözümler için kurduğumuz Ar-Ge merkezimiz resmi olarak açıldı",
+      "tarih": "5 Aralık 2023",
+      "konum": "Ankara, Türkiye",
+      "resimler": [
+        "https://picsum.photos/800/600?random=10",
+        "https://picsum.photos/800/600?random=11",
+        "https://picsum.photos/800/600?random=12"
+      ],
+      "detay": "Metal sektöründe yenilikçi çözümler geliştirmek amacıyla kurduğumuz Ar-Ge merkezimiz faaliyete başladı. Merkezimizde deneyimli mühendislerimiz, sürdürülebilir ve verimli üretim teknolojileri üzerinde çalışacak.",
+      "etiketler": ["Ar-Ge", "İnovasyon", "Teknoloji", "Araştırma"]
+    },
+    {
+      "id": "yeni-ihracat-pazarlari",
+      "baslik": "İhracat Ağımızı Genişletiyoruz",
+      "ozet": "Orta Doğu ve Afrika pazarlarına açılım stratejimiz kapsamında yeni anlaşmalar imzaladık",
+      "tarih": "15 Kasım 2023",
+      "konum": "Dubai, BAE",
+      "resimler": [
+        "https://picsum.photos/800/600?random=13",
+        "https://picsum.photos/800/600?random=14",
+        "https://picsum.photos/800/600?random=15"
+      ],
+      "detay": "Dubai'de düzenlenen Metal & Steel Middle East fuarında önemli iş bağlantıları kurduk. Birleşik Arap Emirlikleri, Suudi Arabistan ve Mısır'dan yeni distribütörler ile anlaşmalar imzaladık.",
+      "etiketler": ["İhracat", "Uluslararası Ticaret", "Büyüme", "Ortadoğu"]
+    },
+    {
+      "id": "dijital-donusum-projesi",
+      "baslik": "Dijital Dönüşüm Projemiz Başladı",
+      "ozet": "Endüstri 4.0 uyumlu akıllı fabrika sistemlerine geçiş sürecimiz başladı",
+      "tarih": "1 Kasım 2023",
+      "konum": "İstanbul, Türkiye",
+      "resimler": [
+        "https://picsum.photos/800/600?random=16",
+        "https://picsum.photos/800/600?random=17",
+        "https://picsum.photos/800/600?random=18"
+      ],
+      "detay": "Üretim tesislerimizde Endüstri 4.0 dönüşümü kapsamında yeni nesil otomasyon sistemlerinin kurulumuna başladık. Bu proje ile üretim verimliliğimizi artırmayı ve enerji tüketimimizi optimize etmeyi hedefliyoruz.",
+      "etiketler": [
+        "Dijital Dönüşüm",
+        "Endüstri 4.0",
+        "Teknoloji",
+        "Verimlilik"
+      ]
+    },
+    {
+      "id": "cevre-dostu-uretim",
+      "baslik": "Yeşil Üretim Sertifikası Aldık",
+      "ozet": "Sürdürülebilir üretim politikalarımız uluslararası sertifika ile ödüllendirildi",
+      "tarih": "20 Ekim 2023",
+      "konum": "İstanbul, Türkiye",
+      "resimler": [
+        "https://picsum.photos/800/600?random=19",
+        "https://picsum.photos/800/600?random=20",
+        "https://picsum.photos/800/600?random=21"
+      ],
+      "detay": "Çevre dostu üretim politikalarımız ve sürdürülebilirlik çalışmalarımız sonucunda Yeşil Üretim Sertifikası almaya hak kazandık. Bu sertifika, karbon ayak izimizi azaltma ve yenilenebilir enerji kullanımı konusundaki başarılarımızı tescilliyor.",
+      "etiketler": [
+        "Sürdürülebilirlik",
+        "Çevre",
+        "Sertifikasyon",
+        "Yeşil Üretim"
+      ]
+    },
+    {
+      "id": "sosyal-sorumluluk-projesi",
+      "baslik": "Meslek Lisesi Öğrencilerine Staj İmkanı",
+      "ozet": "Geleceğin metal işçilerini yetiştirmek için meslek liseleri ile işbirliği protokolü imzaladık",
+      "tarih": "5 Ekim 2023",
+      "konum": "Kocaeli, Türkiye",
+      "resimler": [
+        "https://picsum.photos/800/600?random=22",
+        "https://picsum.photos/800/600?random=23",
+        "https://picsum.photos/800/600?random=24"
+      ],
+      "detay": "Kocaeli'deki üç meslek lisesi ile işbirliği protokolü imzaladık. Bu kapsamda her yıl 20 öğrenciye staj imkanı ve başarılı olanlara istihdam garantisi sağlayacağız.",
+      "etiketler": ["Sosyal Sorumluluk", "Eğitim", "İstihdam", "Gençlik"]
+    },
+    {
+      "id": "yeni-patent-basarimiz",
+      "baslik": "Yeni Patent Başvurumuz Onaylandı",
+      "ozet": "Metal işleme teknolojisinde geliştirdiğimiz yenilikçi yöntem için patent aldık",
+      "tarih": "15 Eylül 2023",
+      "konum": "Ankara, Türkiye",
+      "resimler": [
+        "https://picsum.photos/800/600?random=25",
+        "https://picsum.photos/800/600?random=26",
+        "https://picsum.photos/800/600?random=27"
+      ],
+      "detay": "Ar-Ge merkezimizde geliştirdiğimiz yeni metal işleme teknolojisi için patent başvurumuz onaylandı. Bu teknoloji sayesinde üretim sürecinde %30 enerji tasarrufu sağlıyoruz.",
+      "etiketler": ["Patent", "İnovasyon", "Teknoloji", "Ar-Ge"]
     }
   ]
 }

@@ -1,8 +1,17 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import projelerData from "@/public/sitedata/projeler.json";
 
 const Projelerimiz = () => {
+  const [visibleNews, setVisibleNews] = useState(3);
+  const totalNews = projelerData.projeler.length;
+
+  const loadMore = () => {
+    setVisibleNews((prev) => Math.min(prev + 3, totalNews));
+  };
+
   return (
     <section className="py-20">
       <div className="container px-4 mx-auto">
@@ -16,7 +25,7 @@ const Projelerimiz = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projelerData.projeler.map((haber) => (
+          {projelerData.projeler.slice(0, visibleNews).map((haber) => (
             <div key={haber.id} className="flex">
               <div className="p-6 bg-gray-50 rounded-lg w-full flex flex-col">
                 <div className="relative h-40 mb-6">
@@ -66,14 +75,16 @@ const Projelerimiz = () => {
             </div>
           ))}
         </div>
-        <div className="text-center mt-12">
-          <button
-            className="px-6 py-3 text-gray-50 font-semibold bg-gray-500 hover:bg-gray-600 rounded leading-loose"
-            disabled
-          >
-            Daha Fazla Haber
-          </button>
-        </div>
+        {visibleNews < totalNews && (
+          <div className="text-center mt-12">
+            <button
+              onClick={loadMore}
+              className="px-6 py-3 text-gray-50 font-semibold bg-gray-500 hover:bg-gray-600 rounded leading-loose transition duration-200"
+            >
+              Daha Fazla Haber
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
