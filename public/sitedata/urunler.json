@@ -1,0 +1,248 @@
+{
+  "urunler": [
+    {
+      "id": "boru",
+      "baslik": "Boru",
+      "ozet": "Yüksek kaliteli, dayanıklı endüstriyel borular",
+      "detay": "Endüstriyel standartlara uygun üretilen borularımız, yüksek dayanıklılık ve uzun ömür sunar. Farklı çap ve kalınlık seçenekleriyle çeşitli endüstriyel uygulamalar için ideal çözümler sağlar.",
+      "ozellikler": [
+        "Yüksek dayanıklılık",
+        "Farklı çap seçenekleri",
+        "Korozyon direnci",
+        "Uzun kullanım ömrü"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=101",
+        "https://picsum.photos/800/600?random=102",
+        "https://picsum.photos/800/600?random=103"
+      ],
+      "kategori": "Temel Ürünler"
+    },
+    {
+      "id": "a80",
+      "baslik": "A80",
+      "ozet": "A80 serisi yüksek performanslı endüstriyel bağlantı elemanı",
+      "detay": "A80 serisi bağlantı elemanlarımız, endüstriyel uygulamalar için özel olarak tasarlanmıştır. Yüksek mukavemet ve kolay montaj özellikleriyle öne çıkar.",
+      "ozellikler": [
+        "Kolay montaj",
+        "Yüksek mukavemet",
+        "Uzun ömürlü kullanım",
+        "Endüstriyel standartlara uygunluk"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=104",
+        "https://picsum.photos/800/600?random=105",
+        "https://picsum.photos/800/600?random=106"
+      ],
+      "kategori": "Bağlantı Elemanları"
+    },
+    {
+      "id": "a50",
+      "baslik": "A50",
+      "ozet": "A50 serisi kompakt ve güçlü bağlantı çözümü",
+      "detay": "A50 serisi, kompakt boyutlarına rağmen yüksek performans sunan bağlantı elemanlarımızdır. Özellikle dar alanlarda kullanım için idealdir.",
+      "ozellikler": [
+        "Kompakt tasarım",
+        "Yüksek dayanım",
+        "Kolay kurulum",
+        "Çeşitli boyut seçenekleri"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=107",
+        "https://picsum.photos/800/600?random=108",
+        "https://picsum.photos/800/600?random=109"
+      ],
+      "kategori": "Bağlantı Elemanları"
+    },
+    {
+      "id": "s-serisi",
+      "baslik": "S Serisi",
+      "ozet": "S serisi çok yönlü endüstriyel bağlantı elemanları",
+      "detay": "S serisi ürünlerimiz, çeşitli endüstriyel uygulamalar için geliştirilmiş çok yönlü bağlantı elemanlarıdır. Farklı boyut ve mukavemet seçenekleriyle her ihtiyaca uygun çözüm sunar.",
+      "ozellikler": [
+        "Çok yönlü kullanım",
+        "Yüksek dayanıklılık",
+        "Çeşitli boyut seçenekleri",
+        "Kolay montaj"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=110",
+        "https://picsum.photos/800/600?random=111",
+        "https://picsum.photos/800/600?random=112"
+      ],
+      "kategori": "Bağlantı Elemanları"
+    },
+    {
+      "id": "b80",
+      "baslik": "B80",
+      "ozet": "B80 serisi ağır hizmet tipi bağlantı elemanları",
+      "detay": "B80 serisi, ağır yük ve zorlu koşullar için tasarlanmış yüksek mukavemetli bağlantı elemanlarımızdır. Endüstriyel uygulamalarda maksimum güvenlik ve dayanıklılık sağlar.",
+      "ozellikler": [
+        "Ağır hizmet tipi",
+        "Yüksek yük kapasitesi",
+        "Zorlu koşullara dayanıklılık",
+        "Güvenli bağlantı"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=113",
+        "https://picsum.photos/800/600?random=114",
+        "https://picsum.photos/800/600?random=115"
+      ],
+      "kategori": "Bağlantı Elemanları"
+    },
+    {
+      "id": "deve-boynu",
+      "baslik": "Deve Boynu",
+      "ozet": "Özel tasarım deve boynu bağlantı elemanları",
+      "detay": "Deve boynu ürünlerimiz, özel tasarımı sayesinde karmaşık bağlantı noktalarında mükemmel çözüm sunar. Yüksek kaliteli malzeme ve işçilik ile uzun ömürlü kullanım sağlar.",
+      "ozellikler": [
+        "Özel tasarım",
+        "Esnek bağlantı çözümü",
+        "Yüksek kalite",
+        "Uzun kullanım ömrü"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=116",
+        "https://picsum.photos/800/600?random=117",
+        "https://picsum.photos/800/600?random=118"
+      ],
+      "kategori": "Özel Bağlantı Elemanları"
+    },
+    {
+      "id": "kelepce",
+      "baslik": "Kelepçe",
+      "ozet": "Endüstriyel kelepçe sistemleri",
+      "detay": "Kelepçe sistemlerimiz, güvenli ve sağlam bağlantılar için tasarlanmıştır. Çeşitli boyut ve tiplerde üretilen kelepçelerimiz, farklı endüstriyel uygulamalar için ideal çözümler sunar.",
+      "ozellikler": [
+        "Sağlam tutuş",
+        "Kolay montaj",
+        "Çeşitli boyutlar",
+        "Endüstriyel standartlara uygunluk"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=119",
+        "https://picsum.photos/800/600?random=120",
+        "https://picsum.photos/800/600?random=121"
+      ],
+      "kategori": "Bağlantı Elemanları"
+    },
+    {
+      "id": "hazne",
+      "baslik": "Hazne",
+      "ozet": "Endüstriyel depolama ve hazne sistemleri",
+      "detay": "Hazne sistemlerimiz, endüstriyel depolama ihtiyaçları için özel olarak tasarlanmıştır. Dayanıklı malzeme ve profesyonel işçilik ile uzun ömürlü kullanım sağlar.",
+      "ozellikler": [
+        "Dayanıklı yapı",
+        "Çeşitli kapasite seçenekleri",
+        "Kolay bakım",
+        "Endüstriyel standartlara uygunluk"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=122",
+        "https://picsum.photos/800/600?random=123",
+        "https://picsum.photos/800/600?random=124"
+      ],
+      "kategori": "Depolama Sistemleri"
+    },
+    {
+      "id": "dis-aski",
+      "baslik": "Dış Askı",
+      "ozet": "Dış mekan askı sistemleri",
+      "detay": "Dış askı sistemlerimiz, dış mekan uygulamaları için özel olarak tasarlanmıştır. Hava koşullarına dayanıklı malzemeler ve profesyonel işçilik ile uzun ömürlü kullanım sağlar.",
+      "ozellikler": [
+        "Hava koşullarına dayanıklılık",
+        "Kolay montaj",
+        "Yüksek mukavemet",
+        "UV direnci"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=125",
+        "https://picsum.photos/800/600?random=126",
+        "https://picsum.photos/800/600?random=127"
+      ],
+      "kategori": "Askı Sistemleri"
+    },
+    {
+      "id": "ic-aski",
+      "baslik": "İç Askı",
+      "ozet": "İç mekan askı sistemleri",
+      "detay": "İç askı sistemlerimiz, iç mekan uygulamaları için özel olarak tasarlanmıştır. Estetik görünüm ve fonksiyonelliği bir arada sunar.",
+      "ozellikler": [
+        "Estetik tasarım",
+        "Kolay montaj",
+        "Çeşitli boyut seçenekleri",
+        "Yüksek dayanıklılık"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=128",
+        "https://picsum.photos/800/600?random=129",
+        "https://picsum.photos/800/600?random=130"
+      ],
+      "kategori": "Askı Sistemleri"
+    },
+    {
+      "id": "kapak",
+      "baslik": "Kapak",
+      "ozet": "Endüstriyel kapak sistemleri",
+      "detay": "Kapak sistemlerimiz, endüstriyel uygulamalar için özel olarak tasarlanmıştır. Sızdırmazlık ve dayanıklılık özellikleriyle öne çıkar.",
+      "ozellikler": [
+        "Sızdırmazlık",
+        "Kolay kullanım",
+        "Dayanıklı malzeme",
+        "Çeşitli boyut seçenekleri"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=131",
+        "https://picsum.photos/800/600?random=132",
+        "https://picsum.photos/800/600?random=133"
+      ],
+      "kategori": "Kapak Sistemleri"
+    },
+    {
+      "id": "zivana",
+      "baslik": "Zıvana",
+      "ozet": "Profesyonel zıvana sistemleri",
+      "detay": "Zıvana sistemlerimiz, hassas bağlantı gerektiren uygulamalar için özel olarak tasarlanmıştır. Yüksek hassasiyet ve dayanıklılık sunar.",
+      "ozellikler": [
+        "Hassas bağlantı",
+        "Yüksek dayanıklılık",
+        "Kolay montaj",
+        "Uzun ömürlü kullanım"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=134",
+        "https://picsum.photos/800/600?random=135",
+        "https://picsum.photos/800/600?random=136"
+      ],
+      "kategori": "Bağlantı Sistemleri"
+    },
+    {
+      "id": "cati-cikis-kapagi",
+      "baslik": "Çatı Çıkış Kapağı",
+      "ozet": "Profesyonel çatı çıkış kapağı sistemleri",
+      "detay": "Çatı çıkış kapağı sistemlerimiz, güvenli ve pratik çatı erişimi sağlar. Hava koşullarına dayanıklı malzemeler ve profesyonel işçilik ile uzun ömürlü kullanım sunar.",
+      "ozellikler": [
+        "Hava koşullarına dayanıklılık",
+        "Güvenli erişim",
+        "Sızdırmazlık",
+        "Kolay montaj"
+      ],
+      "resimler": [
+        "https://picsum.photos/800/600?random=137",
+        "https://picsum.photos/800/600?random=138",
+        "https://picsum.photos/800/600?random=139"
+      ],
+      "kategori": "Çatı Sistemleri"
+    }
+  ],
+  "kategoriler": [
+    "Temel Ürünler",
+    "Bağlantı Elemanları",
+    "Özel Bağlantı Elemanları",
+    "Depolama Sistemleri",
+    "Askı Sistemleri",
+    "Kapak Sistemleri",
+    "Bağlantı Sistemleri",
+    "Çatı Sistemleri"
+  ]
+}
