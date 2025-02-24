@@ -15,12 +15,12 @@ const Projelerimiz = () => {
             etkinliklerimiz hakkında güncel bilgiler
           </p>
         </div>
-        <div className="flex flex-wrap -mx-4 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projelerData.projeler.map((haber) => (
-            <div key={haber.id} className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-              <div className="p-6 bg-gray-50 rounded-lg">
+            <div key={haber.id} className="flex">
+              <div className="p-6 bg-gray-50 rounded-lg w-full flex flex-col">
                 <div className="relative h-40 mb-6">
-                  <span className="absolute top-0 right-0 mt-4 mr-4 text-xs px-2 py-1 bg-gray-50 rounded uppercase text-gray-500 font-semibold">
+                  <span className="absolute top-0 right-0 mt-4 mr-4 text-xs px-2 py-1 bg-gray-50 rounded uppercase text-gray-500 font-semibold z-10">
                     {haber.etiketler[0]}
                   </span>
                   <Image
@@ -37,11 +37,11 @@ const Projelerimiz = () => {
                 <h2 className="mb-2 text-2xl font-bold font-heading">
                   {haber.baslik}
                 </h2>
-                <p className="mb-4 text-lg text-gray-500 leading-loose">
+                <p className="mb-4 text-lg text-gray-500 leading-loose flex-grow">
                   {haber.ozet}
                 </p>
                 <Link
-                  className="flex items-center text-lg font-bold text-gray-700 hover:text-gray-800"
+                  className="flex items-center text-lg font-bold text-gray-700 hover:text-gray-800 mt-auto"
                   href={`/projelerimiz/${haber.id}`}
                 >
                   <span>Devamını Oku</span>
@@ -66,7 +66,7 @@ const Projelerimiz = () => {
             </div>
           ))}
         </div>
-        <div className="text-center">
+        <div className="text-center mt-12">
           <button
             className="px-6 py-3 text-gray-50 font-semibold bg-gray-500 hover:bg-gray-600 rounded leading-loose"
             disabled
